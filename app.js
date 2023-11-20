@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-   window.screen.availHeight
-   window.screen.availWidth
+  
    
    const bird = document.querySelector('.bird')
    const gameContainer = document.querySelector('.game-container')
