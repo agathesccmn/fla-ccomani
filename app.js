@@ -35,7 +35,6 @@ document.addEventListener('DOMContentLoaded', () => {
    document.addEventListener('touchstart', function(e) {
       jump()
    
-
    })
 
  
