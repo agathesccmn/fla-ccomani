@@ -32,6 +32,10 @@ document.addEventListener('DOMContentLoaded', () => {
       }
    }
    document.addEventListener('keyup', control)
+   document.addEventListener('touchstart', function(e) {
+      jump()
+
+   })
 
  
    function generateObstacle() {
