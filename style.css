@@ -2,6 +2,9 @@ body{
     display: flex ;
 }
 
+*{
+    touch-action: none;
+}
 
 .game-container{
     width: 500px;
@@ -64,13 +67,7 @@ width: 60px;
 height: 45px;
 left: 220px;
 bottom: 100px;
-
 }
-
-*{
-    touch-action: manipulation;
- }
-
 
 .obstacle {
     background-image: url(flappybird-pipe.png) ;
