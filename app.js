@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-   var ratio = window.devicePixelRatio || 1;
-   var w = screen.width * ratio;
-   var h = screen.height * ratio;
+   window.screen.availHeight
+   window.screen.availWidth
    
    const bird = document.querySelector('.bird')
    const gameContainer = document.querySelector('.game-container')
